@@ -22,26 +22,26 @@ h2{
 .cars{
     display: flex;
     flex-direction:column;
-    margin: 1rem 0.5rem;
+    /* margin: 1rem 0.5rem; */
     border-radius: 0.5rem;
     overflow: hidden;
+    max-width: 780px;
 
 }
 
 .car{
     max-width: 372px;
+    padding: 1.5rem;
 }
 .sedans{
     background-color:hsl(31, 77%, 52%) ;
-    padding: 1.5rem;
+   
 }
 .suvs{
     background-color: hsl(184, 100%, 22%);
-    padding: 1.5rem;
 }
 .luxury{
     background-color: hsl(179, 100%, 13%);
-    padding: 1.5rem;
 }
 .button{
     border-radius: 2rem;
@@ -70,7 +70,7 @@ h2{
 
     .cars{
         flex-direction:row;
-        align-items: center ;
+        
     
     }
     p{
